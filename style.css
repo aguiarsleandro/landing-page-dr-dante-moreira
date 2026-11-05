@@ -1,0 +1,571 @@
+header {
+    background-color: #F1F5EF;
+    padding: 15px 40px;
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header nav a {
+    color: #315b4b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.identificacao {
+    display:flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.identificacao h1 {
+    color:#315b4b;
+    font-size: 28px;
+}
+.identificacao p {
+    color: #66756b;
+    font-size: 14px;
+}
+header {
+    gap: 20px;
+}
+.botao {
+    background-color:#315b4b;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color:#244536;
+}
+.identificacao h1 {
+    margin: 0;
+}
+.identificacao p {
+    margin: 5px 0 0 0;
+}
+header img{
+    width: 260px;
+    height:auto;
+    object-fit: contain;
+}
+#inicio {
+    background-color: #fafbf8;
+    padding: 80px 60px;
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+#inicio h2 {
+    color: #315b4b;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.3;
+    max-width: 650px;
+    text-align: left;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+#inicio p {
+    color: #66756b;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 650px;
+    margin-bottom: 25px;
+}
+.botao-inicio {
+    display: inline-block;
+    background-color: #315b4b;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.botao-secundario {
+    display: inline-block;
+    background-color: transparent;
+    color: #315b4b;
+    padding: 12px 22px;
+    border: 2px solid #315b4b;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.botao-secundario {
+    margin-left: 12px;
+}
+.botao-inicio:hover {
+    background-color: #244536;
+}
+.botao-secundario:hover {
+    background-color: #315b4b;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#inicio.botao-inicio {
+    margin-top: 25px;
+}
+#inicio .acoes-inicio p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.apresentacao p {
+    margin-bottom: 25px;
+}
+#inicio .apresentacao {
+    max-width: 700px;
+}
+
+#sobre img {
+    width: 380px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+#sobre {
+    padding: 80px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color:#f3f7f2;
+}
+#sobre .sobre-conteudo {
+    display: flex;
+    gap:40px;
+    align-items: flex-start;
+}
+#sobre .sobre-textos {
+    flex: 1;
+}
+#sobre h2 {
+    color:#315b4b;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#sobre .sobre-apresentacao p {
+    color: #66756b;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+#sobre h3 {
+    color: #315b4b;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 25px;
+}
+#sobre ul {
+    list-style: none;
+    padding-left: 0;
+}
+#sobre li {
+    margin-bottom: 10px;
+    color: #66756b;
+    line-height: 1.6;
+}
+#sobre .sobre-textos p {
+    color: #66756b;
+}
+#sobre .sobre-formacao p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+#sobre .sobre-formacao {
+    margin-top: 30px;
+}
+#sobre .sobre-formacao h3:first-child {
+    margin-top: 0;
+}
+#sobre .sobre-formacao li:last-child {
+    margin-bottom: 0;
+}
+
+#atendimento {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 60px;
+    box-sizing: border-box;
+    background-color: #fafbf8;
+}
+.card-atendimento {
+    background-color:#e8f0e8;
+    padding: 25px;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease, transform 03s ease;
+}
+.card-atendimento img {
+    width: 60px;
+    height: auto;
+}
+.card-atendimento h2 {
+    color:#315b4b;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    min-height: 60px;
+}
+.card-atendimento p {
+    color:#66756b;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.grade-atendimento {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-atendimento:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    transform: translateY(-5px) ;
+} 
+#atendimento h6 {
+    color: #66756b;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+#abordagem {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 60px 80px;
+    box-sizing: border-box;
+    background-color: #f3f7f2;
+}
+#abordagem > h2 {
+    color:#315b4b;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#abordagem > p {
+    color: #66756b;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.principios-abordagem p {
+    color: #66756b;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.principios-abordagem{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.principios-abordagem h3 {
+    color: #315b4b;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+.principio {
+    background-color:#e8f0e8;
+    padding: 25px;
+    border-radius: 12px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.principio:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    transform:translateY(-5px)
+}
+.beneficios-terapia h2 {
+    color: #315b4b;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.beneficios-terapia>p {
+    color: #66756b;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.lista-beneficios p {
+    margin-bottom: 18px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    color: #66756b;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.lista-beneficios img {
+    width: 20px;
+    height: auto;
+}
+.lista-beneficios {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.beneficios-terapia button {
+    background-color: #315b4b;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+}
+.beneficios-terapia button:hover {
+    background-color: #244536;
+}
+button {
+    cursor: pointer;
+}
+#contato {
+    background-color: #fafbf8;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 60px 80px; 
+    box-sizing: border-box;
+}
+#contato > h2 {
+    color: #315b4b;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.linha-formulario {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;   
+}
+.campo-formulario {
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.campo-formulario input {
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+}
+.campo-formulario textarea {
+    width: 100%;
+    max-width: 720px;
+    height: 120px;
+    box-sizing: border-box;
+}
+.botao-enviar {
+    align-self: flex-start;
+    background-color: #315b4b;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.botao-enviar:hover {
+    background-color: #244638;
+}
+.botao-whatsapp {
+    background-color: #315b4b;
+    color: white;
+    border:none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.botao-whatsapp:hover {
+    background-color: #244638;
+}
+#contato .observacao-emergencia {
+    font-size: 14px;
+    color: #66756b;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#contato > p {
+    color: #66756b;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+#contato .campo-formulario label {
+    color: #315b4b;
+    font-size: 16px;
+    font-weight: 600;  
+}
+#contato .campo-formulario input,
+#contato .campo-formulario textarea {
+    border: 1px solid #cbd5cb;
+    border-radius: 8px;
+    padding: 12px; 
+    font-size: 16px;
+}
+#contato .campo-formulario input:focus,
+#contato .campo-formulario textarea:focus {
+    outline: 2px solid #315b4b;
+    outline-offset: 2px;
+}
+#contato .consentimento label {
+    color: #66756b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#contato .consentimento {
+    display:flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+#contato .consentimento input {
+    margin-top: 4px;    
+}
+#contato .aviso {
+    color: #66756b;
+    font-size: 13px;
+    font-style: italic;
+}
+footer {
+    background-color: #315b4b;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+#mensagem-sucesso {
+    background-color: #e8f0e8;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid #315b4b;
+}
+#mensagem-sucesso[hidden] {
+    display: none;
+}
+#mensagem-sucesso h3 {
+    color: #315b4b;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#mensagem-sucesso p {
+    color: #66756b;
+    font-size: 16px;
+    line-height: 1.6;
+}
+@media (max-width:768px) {
+    #sobre {
+        padding: 40px 20px;
+    }
+    #sobre .sobre-conteudo {
+        flex-direction:column;
+    }
+    #sobre img {
+        max-width: 100%;
+        height: auto;
+    }
+    header {
+        flex-direction:column;
+        padding: 20px;
+        gap: 15px;
+        align-items: center;
+    }
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 16px;
+    }
+    #inicio h2{
+        font-size: 28px;
+    }
+    #inicio {
+        padding: 40px 20px;
+    }
+    .botao-secundario {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+    .grade-atendimento {
+        grid-template-columns: 1fr;
+    }
+    #atendimento {
+        padding: 40px 20px;
+    }
+    .card-atendimento h2 {
+        min-height: 0;
+        font-size: 20px;
+    }
+    .card-atendimento p {
+        font-size: 15px;
+    }
+    .principios-abordagem {
+        grid-template-columns: 1fr;
+    }
+    .principio {
+        height: auto;
+        padding: 15px 20px;
+    }
+    .principio {
+        margin-bottom: 0;
+    }
+    .lista-beneficios p {
+        font-size: 15px;
+    }
+    #abordagem {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    #contato {
+        padding: 40px 20px;
+    }
+    .linha-formulario {
+        grid-template-columns: 1fr;
+    }
+    #contato > h2 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+    #contato > p:not(.observacao-emergencia) {
+        font-size: 16px;
+    }
+    #contato .botao-whatsapp {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    #contato .campo-formulario input,
+    #contato .campo-formulario textarea {
+        max-width: 100%;
+    }
+    #contato .botao-enviar {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    #contato .consentimento label {
+        font-size: 13px;
+    }
+    footer {
+        padding: 30px 20px;
+    }
+}
